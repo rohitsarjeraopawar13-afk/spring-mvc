@@ -1,5 +1,6 @@
 # mvc-servlet.xml file configuration
 
+```xml
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:p="http://www.springframework.org/schema/p"
@@ -9,16 +10,17 @@
            http://www.springframework.org/schema/beans/spring-beans.xsd
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context.xsd">
-           </beans>
+</beans>
+```
 
 # web.xml file configuration
 
+```xml
 <web-app>
 
     <servlet>
         <servlet-name>mvc</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-        
     </servlet>
 
     <servlet-mapping>
@@ -27,9 +29,11 @@
     </servlet-mapping>
 
 </web-app>
+```
 
 # pom.xml file configuration
 
+```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -63,3 +67,4 @@
 		<finalName>abc</finalName>
 	</build>
 </project>
+```
